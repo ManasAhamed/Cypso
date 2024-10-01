@@ -25,7 +25,18 @@ const config: Config = {
       },
     },
   },
-  plugins: [],
+  plugins: [
+    function ({addComponents}: any) {
+      addComponents ({
+        '.containers': {
+          maxWidth :'1280px',
+          width:'91.666667%',
+          marginLeft:'auto',
+          marginRight:'auto',
+        },
+      });
+    },
+  ],
 };
 
-export default config;
+export default config; 
