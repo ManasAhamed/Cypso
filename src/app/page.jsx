@@ -1,4 +1,4 @@
-"use client"; 
+"use client";
 
 import Layout from './component/layout';
 import Image from 'next/image';
@@ -9,7 +9,7 @@ export default function Home() {
   const [activeIndex, setActiveIndex] = useState(null);
 
   const toggleFAQ = (index) => {
-    setActiveIndex(index === activeIndex ? null : index); 
+    setActiveIndex(index === activeIndex ? null : index);
   };
 
   const faqs = [
@@ -33,15 +33,15 @@ export default function Home() {
   return (
     <Layout>
       <div className="relative">
-
-        <section className="absolute  left-0 w-[100%] h-[700px]">
-          <Image
-            src="/hero_image.jpeg"
-            alt="Hero Background"
-            layout="fill"
-            objectFit="cover"
-            priority
-          />
+        {/* Hero Section */}
+        <section className="absolute top-[-40px] left-0 w-full h-[700px] max-w-[1440px]:w-[1440px] max-w-[1440px]:h-[763px] max-w-[1440px]:top-[-40px] max-w-[1200px]:w-[1200px] max-w-[1200px]:h-[700px] max-w-[1200px]:top-[77px] max-w-[768px]:w-[768px] max-w-[768px]:h-[448px] max-w-[768px]:top-0 max-w-[375px]:w-[375px] max-w-[375px]:h-[218px] max-w-[375px]:top-[77px]">
+         <Image
+           src="/hero_image.jpeg"
+           alt="Hero Background"
+           layout="fill"
+          objectFit="cover"
+         priority
+           />
           <div className="absolute bottom-10 left-[80px] w-[630px] h-[306px] flex flex-col gap-5 p-6 bg-gradient-to-r from-interstellarBlue to-richBlue">
             <h1 className="text-white text-[48px] font-bold leading-none tracking-tighter">
               We Crush Your Competitors, Goals, And Sales Records - Without The B.S.
@@ -55,7 +55,8 @@ export default function Home() {
           </div>
         </section>
 
-        <section className="flex justify-between items-center mx-auto top-[800px] w-[1064px] h-[414px] relative">
+        {/* First Section - Adjustments for 1440px and 1200px */}
+        <section className="flex justify-between items-center mx-auto top-[800px] w-[1064px] h-[414px] gap-[20px] relative max-w-[1440px]:top-[857px] max-w-[1440px]:left-[188px] max-w-[1440px]:gap-[108px] max-w-[1200px]:top-[857px] max-w-[1200px]:left-[152px] max-w-[1200px]:w-[896px] max-w-[1200px]:h-[346px] max-w-[1200px]:gap-[20px]">
           <div className="flex-shrink-0">
             <Image
               src="/c2149f00214af5481c570aeb1a76d7d3.png"
@@ -81,7 +82,8 @@ export default function Home() {
           </div>
         </section>
 
-        <section className="flex justify-between items-center mx-auto top-[1000px] w-[1064px] h-[414px] relative">
+        {/* Second Section - Adjustments for 1440px and 1200px */}
+        <section className="flex justify-between items-center mx-auto top-[1000px] w-[1064px] h-[414px] relative max-w-[1440px]:top-[1283px] max-w-[1440px]:left-[188px] max-w-[1440px]:gap-[108px] max-w-[1200px]:top-[1283px] max-w-[1200px]:left-[152px] max-w-[1200px]:w-[896px] max-w-[1200px]:h-[348px] max-w-[1200px]:gap-[20px]">
           <div className="flex flex-col justify-center w-[542px] h-auto gap-[20px]">
             <h2 className="text-bluishPurple text-lg font-bold">
               Web & Mobile App Development
@@ -96,7 +98,7 @@ export default function Home() {
               Learn More
             </Link>
           </div>
-          <div className="pc">
+          <div className="flex-shrink-0">
             <Image
               src="/c2149f00214af5481c570aeb1a76d7d3.png"
               alt="Web & Mobile App Development"
@@ -107,8 +109,8 @@ export default function Home() {
           </div>
         </section>
 
-
-        <section className="mt-[1200px] mx-auto w-[80%]">
+        {/* FAQ Section - Adjustments for 1440px and 1200px */}
+        <section className="mt-[1200px] mx-auto w-[80%] max-w-[1440px]:w-[846px] max-w-[1440px]:h-[392px] max-w-[1440px]:mt-[1847px] max-w-[1440px]:left-[297px] max-w-[1440px]:gap-[28px] max-w-[1200px]:w-[896px] max-w-[1200px]:h-[392px] max-w-[1200px]:top-[1711px]">
           <h2 className="text-center text-bluishPurple text-3xl font-bold mb-10">
             Frequently Asked Questions
           </h2>

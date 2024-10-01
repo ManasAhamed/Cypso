@@ -23,20 +23,29 @@ const config: Config = {
         hornetSting: '#FF0335',  // Error Color
         frog: '#5EB30B',         // Success Color
       },
+      screens: {
+        '1440px': '1440px', // Custom breakpoint for 1440px
+      },
     },
   },
   plugins: [
-    function ({addComponents}: any) {
-      addComponents ({
+    function ({ addComponents }: any) {
+      addComponents({
         '.containers': {
-          maxWidth :'1280px',
-          width:'91.666667%',
-          marginLeft:'auto',
-          marginRight:'auto',
+          maxWidth: '1280px',
+          width: '91.666667%',
+          marginLeft: 'auto',
+          marginRight: 'auto',
+        },
+        '.containers-1440': {
+          maxWidth: '1064px', // You can change this based on your requirements
+          width: '100%',
+          marginLeft: 'auto',
+          marginRight: 'auto',
         },
       });
     },
   ],
 };
 
-export default config; 
+export default config;
