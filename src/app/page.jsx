@@ -43,7 +43,7 @@ export default function Home() {
             src="/hero_image.jpeg"
             alt="Hero Background"
             layout="fill"
-            objectFit="cover"
+            objectFit="absolute"
             priority
           />
           <div className="absolute bottom-10 left-[80px] w-[630px] h-[306px] flex flex-col gap-5 p-6 bg-gradient-to-r from-interstellarBlue to-richBlue">
