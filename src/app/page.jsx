@@ -41,17 +41,23 @@ export default function Home() {
             objectFit="cover"
             priority
           />
-          <div className="absolute bottom-10 left-[80px] w-[630px] h-[306px] flex flex-col gap-5 p-6 bg-gradient-to-r from-interstellarBlue to-richBlue">
-            <h1 className="text-white text-[48px] font-bold leading-none tracking-tighter">
-              We Crush Your Competitors, Goals, And Sales Records - Without The B.S.
-            </h1>
-            <Link
-              href="/consultation"
-              className="flex items-center justify-center bg-yuzuJam text-white font-bold text-xs uppercase py-3 px-5 rounded-md w-[214px] h-[38px]"
-            >
-              Get Free Consultation
-            </Link>
-          </div>
+<div className="absolute bottom-[40px] left-[80px] w-[630px] h-[306px] flex flex-col gap-5 p-6 bg-gradient-to-r from-interstellarBlue to-richBlue
+    md:bottom-[40px] md:left-[60px] md:w-[622px] md:h-[306px]
+    lg:top-[525px] lg:left-0 lg:w-[768px] lg:h-[258px]
+    xl:top-[295px] xl:w-[375px] xl:h-[294px] xl:p-5"
+>
+    {/* Heading */}
+    <h1 className="text-white text-[48px] font-bold leading-none tracking-tighter
+        lg:w-[688px] lg:h-[144px] xl:w-[335px] xl:h-[180px] xl:text-[36px]">
+        We Crush Your Competitors, Goals, And Sales Records - Without The B.S.
+    </h1>
+
+    {/* Button */}
+    <Link href="/consultation" className="flex items-center justify-center bg-yuzuJam text-white font-bold text-xs uppercase py-3 px-5 rounded-md w-[214px] h-[38px]">
+        Get Free Consultation
+    </Link>
+</div>
+
         </section>
 
         <section className="flex justify-between items-center mx-auto top-[800px] w-[1064px] h-[414px] relative">

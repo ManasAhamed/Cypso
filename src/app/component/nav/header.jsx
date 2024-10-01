@@ -12,10 +12,10 @@ const Header = () => {
   return (
     <nav
       className="bg-bluishPurple text-white flex justify-between items-center relative z-50 
-        2xl:py-6 2xl:px-20 2xl:max-w-[1440px] 2xl:h-[77px]
-        xl:py-6 xl:px-16 xl:max-w-[1200px] xl:h-[77px]
-        lg:py-6 lg:px-10 lg:max-w-[768px] lg:h-[77px]
-        sm:py-6 sm:px-5 sm:max-w-[375px] sm:h-[77px]">
+        2xl:py-6 2xl:px-20 2xl:max-w-[100%] 2xl:h-[77px]
+        xl:py-6 xl:px-16 xl:max-w-[100%] xl:h-[77px]
+        lg:py-6 lg:px-10 lg:max-w-[100%] lg:h-[77px]
+        sm:py-6 sm:px-5 sm:max-w-[100%] sm:h-[77px]">
       
       {/* Logo */}
       <div className="flex items-center">
