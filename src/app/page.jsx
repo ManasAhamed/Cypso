@@ -42,13 +42,13 @@ export default function Home() {
             priority
           />
 <div className="absolute bottom-[40px] left-[80px] w-[630px] h-[306px] flex flex-col gap-5 p-6 bg-gradient-to-r from-interstellarBlue to-richBlue
-    md:bottom-[40px] md:left-[60px] md:w-[622px] md:h-[306px]
-    lg:top-[525px] lg:left-0 lg:w-[768px] lg:h-[258px]
-    xl:top-[295px] xl:w-[375px] xl:h-[294px] xl:p-5"
+    max-xl:bottom-[40px] max-xl:left-[60px] max-xl:w-[622px] max-xl:h-[306px]
+    max-lg:top-[525px] max-lg:left-0 max-lg:w-[768px] max-lg:h-[258px]
+    max-md:top-[295px] max-md:w-[375px] max-md:h-[294px] max-md:p-5"
 >
     {/* Heading */}
     <h1 className="text-white text-[48px] font-bold leading-none tracking-tighter
-        lg:w-[688px] lg:h-[144px] xl:w-[335px] xl:h-[180px] xl:text-[36px]">
+        max-lg:w-[688px] max-lg:h-[144px] max-md:w-[335px] max-md:h-[180px] max-md:text-[36px]">
         We Crush Your Competitors, Goals, And Sales Records - Without The B.S.
     </h1>
 
