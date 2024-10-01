@@ -127,13 +127,16 @@ export default function Home() {
     max-md:w-full max-md:h-auto max-md:text-center max-md:items-center max-md:order-1">
 
     {/* Heading */}
-    <h2 className="text-bluishPurple text-lg font-bold max-xl:text-[27px] max-lg:text-[27px] max-md:text-[27px] max-md:w-full">
-      Digital Strategy Consulting
+    <h2 className="text-bluishPurple text-lg font-bold max-xl:text-[27px] max-lg:text-[27px] max-md:text-[27px] max-md:w-full
+      max-md:whitespace-normal max-md:leading-tight">
+      Digital Strategy <br /> Consulting
     </h2>
 
     {/* Text */}
-    <p className="text-black max-xl:text-[16px] max-lg:text-[16px] max-md:text-[16px] max-md:w-full">
-      Your digital strategy should complement the overall marketing strategy of the company. In online marketing, each component will never work in isolation and every business needs a different mix. We provide a clear concept and strategic overview to find the most efficient model for your business.
+    <p className="text-black max-xl:text-[16px] max-lg:text-[16px] max-md:text-[16px] max-md:w-full max-md:leading-snug">
+      Your digital strategy should complement the overall marketing strategy of the company. In online marketing, 
+      each component will never work in isolation and every business needs a different mix. We provide a clear concept 
+      and strategic overview to find the most efficient model for your business.
     </p>
 
     {/* Button */}
