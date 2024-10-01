@@ -33,7 +33,7 @@ export default function Home() {
   return (
     <Layout>
       <div className="relative">
-      <section className="absolute top-[-40px] left-0 w-full h-[763px] 2xl:top-[-40px] 2xl:w-[100%] 2xl:h-[763px] xl:top-0 xl:w-[1200px] xl:h-[700px] lg:top-0 lg:w-[768px] lg:h-[448px] xs:top-[-1px] xs:w-[375px] xs:h-[218.75px]">
+      <section className="absolute top-[-40px] left-0 w-full h-[763px] 2xl:top-[-40px] 2xl:w-[100%] 2xl:h-[763px] xl:top-0 xl:w-[100%] xl:h-[700px] lg:top-0 lg:w-[100%] lg:h-[448px] xs:top-[-1px] xs:w-[100%] xs:h-[218.75px]">
           <Image  
             src="/hero_image.jpeg"
             alt="Hero Background"
@@ -54,32 +54,31 @@ export default function Home() {
           </div>
         </section>
 
-        <section className="absolute top-[857px] left-[188px] w-[1064px] h-[414px] 2xl:gap-[108px] 2xl:flex-row 2xl:w-[1064px] 2xl:h-[414px] 2xl:left-[188px] 2xl:top-[857px] xl:w-[896px] xl:h-[346px] xl:left-[152px] xl:gap-[20px] lg:w-[688px] lg:h-[275px] lg:left-[40px] lg:top-[843px] xs:w-[335px] xs:h-[572.82px] xs:left-[20px] xs:top-[649px] flex items-center justify-between relative gap-[20px]">
-  <div className="flex-shrink-0">
-    <Image
-      src="/c2149f00214af5481c570aeb1a76d7d3.png"
-      alt="Web & Mobile App Development"
-      width={414}
-      height={414}
-      className="object-cover 2xl:w-[414px] 2xl:h-[414px] xl:w-[346px] xl:h-[346px] lg:w-[275px] lg:h-[275px] xs:w-[275px] xs:h-[275.82px]"
-    />
-  </div>
-  <div className="flex flex-col justify-center 2xl:w-[542px] 2xl:h-auto xl:w-[530px] lg:w-[393px] lg:h-[239px] xs:w-[335px] xs:h-[277px] gap-[20px]">
-    <h2 className="text-bluishPurple text-lg font-bold 2xl:text-[27px] 2xl:leading-[33px] xl:text-[27px] lg:text-[27px] xs:text-[27px]">
-      Web & Mobile App Development
-    </h2>
-    <p className="text-black 2xl:w-[542px] xl:w-[530px] lg:w-[393px] xs:w-[335px]">
-      Your web and mobile apps are pieces of the puzzle to grow your business. We use frameworks that tailor content and engagement methods to respond to different interests shown by your potential customers who interact with your business online.
-    </p>
-    <Link
-      href="/web-development"
-      className="bg-yuzuJam text-white font-bold uppercase text-xs px-5 py-3 rounded-lg 2xl:w-[129px] 2xl:h-[38px] xl:w-[129px] xl:h-[38px] lg:w-[129px] lg:h-[38px] xs:w-[129px] xs:h-[38px] flex items-center justify-center gap-[8px]"
-    >
-      Learn More
-    </Link>
-  </div>
-</section>
-
+        <section className="flex justify-between items-center mx-auto top-[800px] w-[1064px] h-[414px] relative">
+          <div className="flex-shrink-0">
+            <Image
+              src="/c2149f00214af5481c570aeb1a76d7d3.png"
+              alt="Web & Mobile App Development"
+              width={414}
+              height={414}
+              className="object-cover"
+            />
+          </div>
+          <div className="flex flex-col justify-center w-[542px] h-auto gap-[20px]">
+            <h2 className="text-bluishPurple text-lg font-bold">
+              Web & Mobile App Development
+            </h2>
+            <p className="text-black">
+              Your web and mobile apps are pieces of the puzzle to grow your business. We use frameworks that tailor content and engagement methods to respond to different interests shown by your potential customers who interact with your business online.
+            </p>
+            <Link
+              href="/web-development"
+              className="inline-block bg-yuzuJam text-white font-bold uppercase text-xs px-5 py-3 rounded-lg w-[129px] h-[38px] flex items-center justify-center gap-[8px]"
+            >
+              Learn More
+            </Link>
+          </div>
+        </section>
 
         <section className="flex justify-between items-center mx-auto top-[1000px] w-[1064px] h-[414px] relative">
           <div className="flex flex-col justify-center w-[542px] h-auto gap-[20px]">
