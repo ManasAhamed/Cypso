@@ -3,14 +3,17 @@ import Image from 'next/image';
 
 const Header = () => {
   return (
-    <nav className="bg-bluishPurple text-white flex justify-between items-center px-20 py-6">
+    <nav className="bg-bluishPurple text-white flex justify-between items-center px-20 py-6"style={{
+          width: '1440px'         
+        }}
+      >
       <div className="flex items-center">
         
         <Link href="/" passHref>
           <div className="flex items-center">
             <Image
               src="/at_digitals_logo.png"
-              alt="Logo"
+              alt="at_digitals_logo"
               width={238.89}
               height={25}    
               className="mr-4"
@@ -29,10 +32,10 @@ const Header = () => {
           opacity: 1,         
         }}
       >
-        <Link href="/services" className="hover:text-gray-300">Services</Link>
-        <Link href="/about" className="hover:text-gray-300">About Us</Link>
-        <Link href="/contact" className="hover:text-gray-300">Contact Us</Link>
-        <Link href="/careers" className="hover:text-gray-300">Careers</Link>
+        <Link href="/services" >Services</Link>
+        <Link href="/about" >About Us</Link>
+        <Link href="/contact" >Contact Us</Link>
+        <Link href="/careers" >Careers</Link>
       </div>
     </nav>
   );
