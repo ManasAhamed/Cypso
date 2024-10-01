@@ -33,7 +33,11 @@ export default function Home() {
   return (
     <Layout>
       <div className="relative">
-      <section className="absolute top-[-40px] left-0 w-full h-[763px] 2xl:top-[-40px] 2xl:w-[100%] 2xl:h-[763px] xl:top-0 xl:w-[100%] xl:h-[700px] lg:top-0 lg:w-[100%] lg:h-[448px] xs:top-[-1px] xs:w-[100%] xs:h-[218.75px]">
+      <section className="absolute top-[-40px] left-0 w-full h-[763px] 
+    max-2xl:top-[-40px] max-2xl:w-[100%] max-2xl:h-[763px] 
+    max-xl:top-0 max-xl:w-[100%] max-xl:h-[700px] 
+    max-lg:top-0 max-lg:w-[100%] max-lg:h-[448px] 
+    max-xs:top-[-1px] max-xs:w-[100%] max-xs:h-[218.75px]">
           <Image  
             src="/hero_image.jpeg"
             alt="Hero Background"
