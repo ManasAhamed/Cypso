@@ -59,7 +59,7 @@ const Header = () => {
 
       {/* Mobile Menu */}
       {isMenuOpen && (
-        <div className="fixed inset-0 z-50 bg-white text-black flex flex-col items-start justify-center px-6 py-10">
+        <div className="fixed inset-0 z-50 bg-white text-black flex flex-col items-start justify-start px-6 py-10 top-0 sm:pt-[77px] sm:h-full">
           <button
             onClick={toggleMenu}
             className="absolute top-4 right-4 text-2xl"
@@ -67,7 +67,7 @@ const Header = () => {
           >
             &#x2715; {/* Close (X) Icon */}
           </button>
-          <nav className="flex flex-col space-y-4 text-lg uppercase">
+          <nav className="flex flex-col space-y-4 text-lg uppercase mt-12 sm:mt-0">
             <Link href="/" onClick={toggleMenu}>Home</Link>
             <Link href="/services" onClick={toggleMenu}>Services</Link>
             <Link href="/about" onClick={toggleMenu}>About Us</Link>
