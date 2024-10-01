@@ -24,28 +24,15 @@ const config: Config = {
         frog: '#5EB30B',         // Success Color
       },
       screens: {
-        '1440px': '1440px', // Custom breakpoint for 1440px
+        '2xl': '1440px',  
+        'xl': '1200px',   
+        'lg': '1024px',   
+        'md': '768px',    
+        'sm': '640px',    
+        'xs': '375px',   
       },
     },
   },
-  plugins: [
-    function ({ addComponents }: any) {
-      addComponents({
-        '.containers': {
-          maxWidth: '1280px',
-          width: '91.666667%',
-          marginLeft: 'auto',
-          marginRight: 'auto',
-        },
-        '.containers-1440': {
-          maxWidth: '1064px', // You can change this based on your requirements
-          width: '100%',
-          marginLeft: 'auto',
-          marginRight: 'auto',
-        },
-      });
-    },
-  ],
+  plugins: [],
 };
-
 export default config;

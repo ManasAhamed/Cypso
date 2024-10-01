@@ -33,17 +33,12 @@ export default function Home() {
   return (
     <Layout>
       <div className="relative">
-      <section className="
-  absolute top-[-40px] left-0 w-[100%] h-[700px] 
-  max-w-[1440px]:w-[1440px] max-w-[1440px]:h-[763px] max-w-[1440px]:top-[-40px] 
-  max-w-[1200px]:w-[1200px] max-w-[1200px]:h-[700px] max-w-[1200px]:top-[77px]
-  max-w-[768px]:w-[768px] max-w-[768px]:h-[448px] max-w-[768px]:top-0
-  max-w-[375px]:w-[375px] max-w-[375px]:h-[218.75px] max-w-[375px]:top-[-1px]">
-          <Image
+      <section className="absolute top-[-40px] left-0 w-full h-[763px] 2xl:top-[-40px] 2xl:w-[1440px] 2xl:h-[763px] xl:top-0 xl:w-[1200px] xl:h-[700px] lg:top-0 lg:w-[768px] lg:h-[448px] xs:top-[-1px] xs:w-[375px] xs:h-[218.75px]">
+          <Image  
             src="/hero_image.jpeg"
             alt="Hero Background"
             layout="fill"
-            objectFit="absolute"
+            objectFit="cover"
             priority
           />
           <div className="absolute bottom-10 left-[80px] w-[630px] h-[306px] flex flex-col gap-5 p-6 bg-gradient-to-r from-interstellarBlue to-richBlue">
