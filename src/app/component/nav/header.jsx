@@ -5,7 +5,7 @@ const Header = () => {
   return (
     <nav
       className="bg-bluishPurple text-white flex justify-between items-center px-20 py-6 relative z-50"
-      style={{ width: '1440px' }}
+      style={{ width: '' }}
     >
       <div className="flex items-center">
         <Link href="/" passHref>
