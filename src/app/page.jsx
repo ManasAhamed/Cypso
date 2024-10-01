@@ -33,7 +33,12 @@ export default function Home() {
   return (
     <Layout>
       <div className="relative">
-        <section className="absolute top-[-40px] left-0 w-[100%] h-[700px]">
+      <section className="
+  absolute top-[-40px] left-0 w-[100%] h-[700px] 
+  max-w-[1440px]:w-[1440px] max-w-[1440px]:h-[763px] max-w-[1440px]:top-[-40px] 
+  max-w-[1200px]:w-[1200px] max-w-[1200px]:h-[700px] max-w-[1200px]:top-[77px]
+  max-w-[768px]:w-[768px] max-w-[768px]:h-[448px] max-w-[768px]:top-0
+  max-w-[375px]:w-[375px] max-w-[375px]:h-[218.75px] max-w-[375px]:top-[-1px]">
           <Image
             src="/hero_image.jpeg"
             alt="Hero Background"
@@ -97,7 +102,7 @@ export default function Home() {
           </div>
           <div className="pc">
             <Image
-              src="/c2149f00214af5481c570aeb1a76d7d3.png"
+              src="/be108bd31437b72eaae8e1dbd7abd910.png"
               alt="Web & Mobile App Development"
               width={414}
               height={416}
