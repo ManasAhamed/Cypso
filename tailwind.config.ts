@@ -22,6 +22,7 @@ const config: Config = {
         cuddlyYarn: '#FFF8E0',   // Accent Color 2
         hornetSting: '#FF0335',  // Error Color
         frog: '#5EB30B',         // Success Color
+        
       },
       screens: {
         '2xl': '1440px',  
