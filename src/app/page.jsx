@@ -33,8 +33,8 @@ export default function Home() {
   return (
     <Layout>
       <div className="relative">
-      <section className="absolute top-[-40px] left-0 w-full h-[763px] 2xl:top-[-40px] 2xl:w-[100%] 2xl:h-[763px] xl:top-0 xl:w-[100%] xl:h-[700px] lg:top-0 lg:w-[100%] lg:h-[448px] xs:top-[-1px] xs:w-[100%] xs:h-[218.75px]">
-          <Image  
+      <section className="absolute top-[-40px] left-0 w-full h-[763px] 2xl:top-[-40px] 2xl:w-[100%] 2xl:h-[763px] xl:top-0 xl:w-[100%] xl:h-[700px] lg:top-0 lg:w-[100%] lg:h-[548px] md:top-[0] md:w-[100%] md:h-[448px] xs:top-[-1px] xs:w-[100%] xs:h-[218.75px]">
+      <Image  
             src="/hero_image.jpeg"
             alt="Hero Background"
             layout="fill"
@@ -43,7 +43,7 @@ export default function Home() {
           />
 <div className="absolute bottom-[40px] left-[80px] w-[630px] h-[306px] flex flex-col gap-5 p-6 bg-gradient-to-r from-interstellarBlue to-richBlue
     max-xl:bottom-[40px] max-xl:left-[60px] max-xl:w-[622px] max-xl:h-[306px]
-    max-lg:top-[525px] max-lg:left-0 max-lg:w-[100%] max-lg:h-[258px]
+    max-lg:top-[440px] max-lg:left-0 max-lg:w-[100%] max-lg:h-[258px]
     max-md:top-[215px] max-md:w-[100%] max-md:h-[294px] max-md:p-5"
 >
     {/* Heading */}
@@ -60,9 +60,9 @@ export default function Home() {
 
         </section>
 
-        <section className="flex justify-between items-center mx-auto top-[800px] w-[1064px] h-[414px] relative
-  max-2xl:w-[1064px] max-2xl:h-[414px] max-2xl:top-[857px] max-2xl:left-[188px]
-  max-xl:w-[896px] max-xl:h-[346px] max-xl:top-[857px] max-xl:left-[152px]
+        <section className="flex justify-between items-center mx-auto top-[750px] w-[1064px] h-[414px] relative
+  max-2xl:w-[1064px] max-2xl:h-[414px] max-2xl:top-[857px] max-2xl:left-[50px]
+  max-xl:w-[800px] max-xl:h-[346px] max-xl:top-[550px] max-xl:left-[10px]
   max-lg:w-[688px] max-lg:h-[275px] max-lg:top-[843px] max-lg:left-[40px]
   max-md:w-[375px] max-md:h-auto max-md:top-[520px] max-md:left-[20px] max-md:flex-col">
 
@@ -103,14 +103,14 @@ export default function Home() {
 </section>
 
 
-<section className="flex justify-between items-center mx-auto top-[1000px] w-[1064px] h-[414px] relative
-  max-2xl:w-[896px] max-2xl:h-[348px] max-2xl:top-[1283px] max-2xl:left-[152px]
-  max-xl:w-[896px] max-xl:h-[348px] max-xl:top-[1283px] max-xl:left-[152px]
-  max-lg:w-[688px] max-lg:h-[276px] max-lg:top-[1178px] max-lg:left-[40px]
+<section className="flex justify-between items-center mx-auto top-[750px] w-[1064px] h-[414px] relative
+  max-2xl:w-[896px] max-2xl:h-[348px] max-2xl:top-[950px] max-2xl:left-[100px]
+  max-xl:w-[800px] max-xl:h-[348px] max-xl:top-[650px] max-xl:left-[80px]
+  max-lg:w-[688px] max-lg:h-[276px] max-lg:top-[1000px] max-lg:left-[40px]
   max-md:flex-col max-md:w-[375px] max-md:h-auto max-md:top-[550px] max-md:left-[20px] max-md:gap-5">
 
   {/* Image Section */}
-  <div className="flex-shrink-0 max-md:order-1 max-md:mb-5">
+  <div className="flex-shrink-0 order-2 max-md:order-1 max-md:mb-5">
     <Image
       src="/be108bd31437b72eaae8e1dbd7abd910.png"
       alt="Web & Mobile App Development"
@@ -124,12 +124,12 @@ export default function Home() {
   <div className="flex flex-col justify-center w-[542px] h-auto gap-[20px]
     max-xl:w-[530px] max-xl:h-[206px]
     max-lg:w-[393px] max-lg:h-[225px]
-    max-md:w-full max-md:h-auto max-md:text-center max-md:items-center max-md:order-1">
+    max-md:w-full max-md:h-auto max-md:text-center max-md:items-center max-md:order-2 max-md:text-center">
 
     {/* Heading */}
     <h2 className="text-bluishPurple text-lg font-bold max-xl:text-[27px] max-lg:text-[27px] max-md:text-[27px] max-md:w-full
       max-md:whitespace-normal max-md:leading-tight">
-      Digital Strategy <br /> Consulting
+      Digital Strategy Consulting
     </h2>
 
     {/* Text */}
@@ -149,7 +149,7 @@ export default function Home() {
 </section>
 
 
-<section className="mt-[1200px] mb-[120px] mx-auto w-[80%] 1440px:w-[846px] 1440px:h-[392px] 1440px:mt-[1847px] 1440px:left-[297px] 1440px:gap-[28px] max-w-[686px] max-md:max-w-[334px] max-md:mt-[650px] max-md:mb-[50px]">
+<section className="mt-[1200px] mb-[120px] mx-auto w-[80%] max-2xl:w-[846px] 2xl:h-[392px] 2xl:mt-[850px] 2xl:gap-[28px] xl:mt-[1100px] xl:mb-[50px] xl:h-[392px] xl:gap-[28px] lg:mt-[800px] lg:mb-[130px] lg:h-[350px] lg:gap-[20px] md:mt-[1100px] max-w-[686px] max-md:max-w-[334px] max-md:mt-[650px] max-md:mb-[50px]">
   <h2 className="text-center text-bluishPurple text-3xl font-bold mb-10 max-md:text-3xl">
     Frequently Asked Questions
   </h2>
@@ -175,6 +175,9 @@ export default function Home() {
     ))}
   </div>
 </section>
+
+
+
 
 
 
