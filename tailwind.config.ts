@@ -1,3 +1,5 @@
+import { PluginAPI } from 'tailwindcss/types/config';
+
 const config = {
   content: [
     "./src/pages/**/*.{js,ts,jsx,tsx,mdx}",
@@ -32,7 +34,7 @@ const config = {
     },
   },
   plugins: [
-    function ({ addComponents }) {
+    function ({ addComponents }: PluginAPI) {  // Explicitly typing `addComponents`
       addComponents({
         ".containers": {
           maxWidth: "1280px",
@@ -44,4 +46,5 @@ const config = {
     },
   ],
 };
+
 export default config;
