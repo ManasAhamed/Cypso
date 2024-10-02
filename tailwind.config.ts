@@ -34,7 +34,7 @@ const config = {
     },
   },
   plugins: [
-    function ({ addComponents }: PluginAPI) {  // Explicitly typing `addComponents`
+    function ({ addComponents }: PluginAPI) {  
       addComponents({
         ".containers": {
           maxWidth: "1280px",
