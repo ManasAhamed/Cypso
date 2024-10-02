@@ -17,8 +17,7 @@ const Header = () => {
     lg:py-6 lg:px-10 lg:max-w-[100%] lg:h-[77px]
     md:py-6 md:px-8 md:max-w-[100%] md:h-[77px]  
     xs:py-6 xs:px-5 xs:max-w-[100%] xs:h-[77px]">
-      
-      {/* Logo */}
+  
       <div className="flex items-center">
         <Link href="/" passHref>
           <div className="flex items-center">
@@ -33,7 +32,6 @@ const Header = () => {
         </Link>
       </div>
 
-      {/* Hamburger Icon for Mobile */}
       <div className="sm:block lg:hidden">
         <button onClick={toggleMenu} aria-label="Toggle menu">
           <Image
@@ -45,7 +43,6 @@ const Header = () => {
         </button>
       </div>
 
-      {/* Desktop Links */}
       <div className="hidden lg:flex space-x-7 text-base uppercase 
         2xl:gap-[28px] xl:gap-[20px] lg:gap-[15px]"
         style={{
@@ -58,7 +55,6 @@ const Header = () => {
         <Link href="/careers">Careers</Link>
       </div>
 
-      {/* Mobile Menu */}
       {isMenuOpen && (
         <div className="fixed inset-0 z-50 bg-white text-black flex flex-col items-start justify-start px-6 py-10 top-0 sm:pt-[77px] sm:h-full">
           <button
@@ -66,7 +62,7 @@ const Header = () => {
             className="absolute top-4 right-4 text-2xl"
             aria-label="Close menu"
           >
-            &#x2715; {/* Close (X) Icon */}
+            &#x2715;
           </button>
           <nav className="flex flex-col space-y-4 text-lg uppercase mt-12 sm:mt-0">
             <Link href="/" onClick={toggleMenu}>Home</Link>

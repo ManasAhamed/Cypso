@@ -16,7 +16,8 @@ export default function Home() {
         xl:top-0 xl:w-[100%] xl:h-[700px] 
         lg:top-0 lg:w-[100%] lg:h-[548px] 
         md:top-[0] md:w-[100%] md:h-[448px] 
-        xs:top-[-1px] xs:w-[100%] xs:h-[218.75px]">
+        xs:top-[-1px] xs:w-[100%] xs:h-[218.75px] 
+        max-[384px]:w-[385px] max-[384px]:h-[385px]">
           <Image
             src="/hero_image.jpeg"
             alt="Hero Background"
@@ -27,10 +28,12 @@ export default function Home() {
           <div className="absolute bottom-[40px] left-[80px] w-[630px] h-[306px] flex flex-col gap-5 p-6 bg-gradient-to-r from-interstellarBlue to-richBlue
             max-xl:bottom-[40px] max-xl:left-[60px] max-xl:w-[622px] max-xl:h-[306px]
             max-lg:top-[440px] max-lg:left-0 max-lg:w-[100%] max-lg:h-[258px]
-            max-md:top-[215px] max-md:w-[100%] max-md:h-[294px] max-md:p-5"
+            max-md:top-[215px] max-md:w-[100%] max-md:h-[294px] max-md:p-5
+            max-[384px]:w-[385px] max-[384px]:h-[35px] "
           >
             <h1 className="text-white text-[48px] font-bold leading-none tracking-tighter 
-              max-lg:w-[688px] max-lg:h-[144px] max-md:w-[335px] max-md:h-[180px] max-md:text-[36px]">
+              max-lg:w-[688px] max-lg:h-[144px] max-md:w-[335px] max-md:h-[180px] max-md:text-[36px]
+              max-[384px]:text-[24px]">
               We Crush Your Competitors, Goals, And Sales Records - Without The B.S.
             </h1>
             <Link href="" className="flex items-center justify-center bg-yuzuJam text-white font-bold text-xs uppercase py-3 px-5 rounded-md w-[214px] h-[38px]">
@@ -45,7 +48,6 @@ export default function Home() {
       <DigitalStrategy/>
 
       <FAQSection />
-
     </Layout>
   );
 }
