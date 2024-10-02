@@ -8,7 +8,6 @@ import FAQSection from './FAQSection';
 import DigitalStrategy from './DigitalStrategy';
 import DevelopmentSection from './DevelopmentSection'
 
-
 export default function Home() {
   return (
     <Layout>
