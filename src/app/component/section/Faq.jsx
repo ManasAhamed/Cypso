@@ -25,7 +25,7 @@ const Faq = () => {
 
   return (
     <section className="containers flex flex-col gap-10">
-      <h2 className="font-semibold text-bluishPurple text-2xl mx-auto">
+      <h2 className="font-semibold text-bluishPurple text-2xl text-center md:text-center mx-auto">
         Frequently Asked Questions
       </h2>
 
