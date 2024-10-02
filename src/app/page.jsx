@@ -3,7 +3,6 @@
 import Layout from './component/layout';
 import Image from 'next/image';
 import Link from 'next/link';
-import { useState } from 'react';
 import FAQSection from './FAQSection';
 import DigitalStrategy from './DigitalStrategy';
 import DevelopmentSection from './DevelopmentSection'
