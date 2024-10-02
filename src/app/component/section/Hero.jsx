@@ -21,7 +21,7 @@ const Hero = () => {
             </h1>
             <Link
               href="/"
-              className="bg-orange-400 hover:bg-orange-500 text-sm text-white font-bold uppercase py-2 px-4 rounded-md w-fit"
+              className="bg-yuzuJam hover:bg-yuzuJam text-sm text-white font-bold uppercase py-2 px-4 rounded-md w-fit"
             >
               Get Free Consultation
             </Link>
@@ -37,7 +37,7 @@ const Hero = () => {
           </h1>
           <Link
             href="/"
-            className="bg-orange-400 hover:bg-orange-500 text-sm text-white font-bold uppercase py-2 px-4 rounded-md w-fit"
+            className="bg-yuzuJam hover:bg-yuzuJam text-sm text-white font-bold uppercase py-2 px-4 rounded-md w-fit"
           >
             Get Free Consultation
           </Link>
