@@ -14,11 +14,11 @@ const Web = () => {
 
       <div className="flex items-center justify-between ml-auto">
         <div className="flex flex-col gap-3 max-w-[500px]">
-          <h2 className=" font-semibold text-purple-800 text-2xl">
+          <h2 className=" font-semibold text-bluishPurple text-2xl">
             Web & Mobile App Development
           </h2>
 
-          <p className=" font-normal text-sm text-wrap text-gray-950">
+          <p className=" font-normal text-sm text-wrap text-tricornBlack-900">
             Your web and mobile apps are pieces of the puzzle to grow your
             business. We use frameworks that tailor content and engagement
             methods to respond to different interests shown by your potential
@@ -27,7 +27,7 @@ const Web = () => {
 
           <Link
             href="/"
-            className="bg-orange-400 hover:bg-orange-500 text-sm text-white font-bold uppercase py-2 px-4 rounded-md w-fit"
+            className="bg-yuzuJam hover:bg-yuzuJam text-sm text-white font-bold uppercase py-2 px-4 rounded-md w-fit"
           >
             Learn More
           </Link>
