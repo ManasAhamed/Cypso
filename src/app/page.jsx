@@ -128,7 +128,7 @@ export default function Home() {
 
   {/* Heading */}
   <h2 className="text-bluishPurple text-lg font-bold max-xl:text-[27px] max-lg:text-[27px] max-md:text-[27px] max-md:w-full
-    max-md:whitespace-normal max-md:leading-tight max-md:text-center"> 
+    max-md:whitespace-normal max-md:leading-tight max-md:text-center "> 
     Digital Strategy Consulting
   </h2>
 
