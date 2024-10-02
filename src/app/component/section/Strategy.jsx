@@ -5,7 +5,7 @@ const Strategy = () => {
   return (
     <section className="containers flex flex-col md:flex-row-reverse gap-4 ">
       <Image
-        className=" object-cover object-center"
+        className=" object-cover object-center md:w-[245px]"
         src="/be108bd31437b72eaae8e1dbd7abd910.png"
         alt="Web & Mobile App Development"
         width={414}

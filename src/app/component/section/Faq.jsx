@@ -25,13 +25,13 @@ const Faq = () => {
 
   return (
     <section className="containers flex flex-col gap-10">
-      <h2 className="font-semibold text-purple-800 text-2xl mx-auto">
+      <h2 className="font-semibold text-bluishPurple text-2xl mx-auto">
         Frequently Asked Questions
       </h2>
 
       <div className="flex flex-col gap-3">
         {faqs.map((faq, index) => (
-          <div key={index} className=" bg-purple-50">
+          <div key={index} className=" bg-[#FAF8FF]">
             <button
               className={`flex flex-row gap-4 justify-between w-full p-4 
               ${activeIndex === index ? "text-bluishPurple" : "text-black"}`}
