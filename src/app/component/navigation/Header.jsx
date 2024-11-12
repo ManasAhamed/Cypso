@@ -15,9 +15,9 @@ const Header = () => {
         <Link href="/" passHref>
           <Image
             className="object-cover object-center"
-            src="/at_digitals_logo.png"
-            alt="AT Digital Logo"
-            width={240}
+            src="/cypso.png"
+            alt="Cypso logo"
+            width={210}
             height={25}
             priority
           />

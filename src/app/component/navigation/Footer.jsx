@@ -7,8 +7,8 @@ const Footer = () => {
       <div className="flex flex-col lg:flex-row justify-between w-full max-w-[1280px] gap-8">
         <div className="flex flex-col items-start gap-5 lg:w-1/3">
           <Image
-            src="/at_digitals_logo.png"
-            alt="AT Digital Logo"
+            src="/cypso.png"
+            alt="cypso logo"
             width={239}
             height={25}
           />
